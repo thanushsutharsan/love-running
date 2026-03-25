@@ -4,6 +4,16 @@
    margin: 0;
    box-sizing: border-box;
 }
+
+/* GENERAL STYLES */
+
+body {
+    min-height: 100vh;
+    display :flex;
+    flex-direction: column;
+    /* GENERIC PROJECT STYLES */
+    color: #3a3a3a;
+}
 /* HEADER */
 
 header {
@@ -12,6 +22,8 @@ header {
 /* MAIN CONTENT */
 main {
     background-color: lightblue;
+   /* THIS ALLOWS THE MAIN CONTENT TO EXPAND AND FILL THE AVAILABLE SPACE BETWEEN THE HEADER AND FOOTER, PUSHING THE FOOTER TO THE BOTTOM OF THE PAGE. */
+    flex: 1 0 auto;
 
 }
 /* FOOTER */
