@@ -60,8 +60,20 @@ h1 {
 .active {
     border-bottom: 1px solid #3a3a3a;
 }
+/* NAVIBAR STYLES WITH DROPDOWN TOGGLES */
+
+nav { 
+    position: absolute;
+    background-color: #ffffff;
+    width:100%;
+    left: 0;
+    padding: 0 1rem;
+    box-shadow: inherit;
+    display: none;
+}
 
 /* MAIN CONTENT */
+
 main {
     background-color: lightblue;
    /* THIS ALLOWS THE MAIN CONTENT TO EXPAND AND FILL THE AVAILABLE SPACE BETWEEN THE HEADER AND FOOTER, PUSHING THE FOOTER TO THE BOTTOM OF THE PAGE. */
