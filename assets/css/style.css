@@ -140,5 +140,15 @@ footer {
     main {
         /* PUSH MAIN CONTENT BELOW TO ACCOMMODATE TO LARGER HEADER */
         margin-top: 79px;
-    }
+    }      
 }
+
+
+       /* MEDIA QUERIES: DESKTOP/LAPTOPS AND LARGER (992PX AND UP) */
+
+    @media screen and (min-width: 992px) {
+        #menu a:hover{
+            border-bottom: 1px solid #3a3a3a;
+            
+        }
+    }
