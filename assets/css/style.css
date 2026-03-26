@@ -92,12 +92,19 @@ nav {
 /* MAIN CONTENT */
 
 main {
-    background-color: lightblue;
+    
    /* THIS ALLOWS THE MAIN CONTENT TO EXPAND AND FILL THE AVAILABLE SPACE BETWEEN THE HEADER AND FOOTER, PUSHING THE FOOTER TO THE BOTTOM OF THE PAGE. */
     flex: 1 0 auto;
     margin-top: 47px;
-
 }
+/* HERO SECTION */
+
+#hero {
+    height : 600px;
+    width: 100%;
+    background-color: lightgreen;
+}
+
 /* FOOTER */
 
 #social-networks {
