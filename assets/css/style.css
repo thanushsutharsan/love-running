@@ -92,20 +92,18 @@ nav {
 /* MAIN CONTENT */
 
 main {
-    
    /* THIS ALLOWS THE MAIN CONTENT TO EXPAND AND FILL THE AVAILABLE SPACE BETWEEN THE HEADER AND FOOTER, PUSHING THE FOOTER TO THE BOTTOM OF THE PAGE. */
     flex: 1 0 auto;
     margin-top: 47px;
+
 }
+
 /* HERO SECTION */
 
 #hero {
-    height : 600px;
+    height: 600px;
     width: 100%;
-    background:url("/images/hero-image.webp");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
+    background: url("../images/hero-image.webp") no-repeat center center/cover;
 }
 
 /* FOOTER */
@@ -119,12 +117,10 @@ main {
 
 }
 
-
-#social-networks i{
+#social-networks i {
     font-size: 160%;
-    padding: 5%;
-    color:#3a3a3a;
-
+    padding:5%;
+    color: #3a3a3a;
 }
 /* MEDIA QUERIES: TABLETS AND LARGER (768px AND UP) */
 @media screen and (min-width:768px) {
