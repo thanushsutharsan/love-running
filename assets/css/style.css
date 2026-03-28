@@ -236,6 +236,15 @@ main {
     padding:5%;
     color: #3a3a3a;
 }
+
+/* MEDIA QUERIES: LARGE AND LANDSCAPE PHONES (576px AND UP) */
+@media screen and (min-width: 576px) {
+    #photos {
+        column-count: 2;
+        column-gap: 0;
+    }
+}
+
 /* MEDIA QUERIES: TABLETS AND LARGER (768px AND UP) */
 @media screen and (min-width:768px) {
    
@@ -300,6 +309,11 @@ main {
         align-self: flex-end;
     }
 
+    /* GALLERY STYLES FOR TABLETS AND LARGER */
+    #photos {
+        column-count: 3;
+    }
+
 }
     
 
@@ -312,6 +326,13 @@ main {
             border-bottom: 1px solid #3a3a3a;
             
         }
+
+        /*GALLERY STYLES FOR DESKTOPS AND LARGER */
+        #photos {
+            column-count: 4;
+        }
+
+        
         #benefits {
             display: flex;
             flex-direction: row;
