@@ -175,6 +175,36 @@ main {
         justify-content: center;
     }
 
+    /* MEET TIMES SECTION */
+   #times {
+     background: url("../images/dublin-city.webp") no-repeat center/cover;
+    
+     /* HANDLES REPSONSIVITY WITHOUT THE NEED FOR MEDIA QUERIES */
+    display:flex;
+    flex-wrap: wrap;
+
+   }
+
+   #times div {
+    color: #fafafa;
+    background-color: rgba(0, 0, 0, .6);
+    padding: 15px;
+    text-align: center;
+    /* THIS WILL NOT WRAP ON SCREENNS OF LESS THAN 400PX WIDE.
+       EACH DIV WILL EXPAND TO FILL THE AVAILABLE SPACE ON ITS ROW */
+    flex-basis: 200px;
+    flex-grow: 1;
+    /* CREATES A GRIDE OF MEETUP TIMES DIVS OVER THE BACKGROUND IMAGE */
+    border:2px solid white;
+
+   }
+   
+    #times h3 {
+        /*OVERRIDE THE DARK BACKGROUND COLOR TO MAKE THE HEADING STAND OUT MORE */
+        color:#fafafa;
+
+   }
+
 /* FOOTER */
 
 #social-networks {
