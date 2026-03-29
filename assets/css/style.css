@@ -126,7 +126,7 @@ main {
     background-color: rgba(241, 109, 107, .7);  
     font-size: 130%;
     position: absolute;
-    bottom: 80px;
+    bottom: 30px;
     width: 80%;
     min-height: 200px;
     padding-top: 40px;
@@ -168,8 +168,8 @@ main {
 
     #circle-cover-bg {
         background: url(../images/reasons-image.webp) no-repeat center center/cover;
-        height: 90vh;
-        width: 90vh;
+        height: 90vw;
+        width: 90vw;
         margin-bottom: 20px;
       /*  MAKES THE SQUARE INTO A CIRCLE  */
         border-radius: 50%;
@@ -224,6 +224,56 @@ main {
    #photos {
     line-height: 0;
    }
+   /* FORMS */
+
+#signup {
+    background-image: url("../images/signup-image.webp");
+    background-size: cover;
+    background-position: 75%;
+    padding: 20px 10% 0 10%;
+    flex-grow: 1;
+
+}
+
+#signup-form { 
+    color: #ffffff;
+    background-color: rgba(60, 60, 60, 0.6);
+    padding: 30px;
+
+}
+
+
+#signup-form>h2 {
+    color: #fafafa ;
+    margin-bottom: 20px;
+}
+
+.text-input {
+    background: transparent;
+    color: #fafafa;
+    width: 100%;
+    height: 25px;
+    margin: 5px 0 20px 0;
+    border: 1px solid #fafafa;
+    border-radius: 2px;
+    padding: 0 5px;
+
+}
+
+.radio-input {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.join-button {
+   margin-top: 20px;
+   border-radius: 2px;
+   padding: 15px 32px;
+   font-size: 100%;
+   background-color:#454b1b;
+   color: #fafafa
+}
+
 /* FOOTER */
 
 #social-networks {
@@ -317,56 +367,27 @@ main {
     #photos {
         column-count: 3;
     }
-
-}
 /* FORMS */
+    #signup {
+        background-position: center;
+        position: relative;
+    }
 
-#signup {
-    background-image: url("../images/signup-image.webp");
-    background-size: cover;
-    background-position: 75%;
-    padding: 20px 10% 0 10%;
-    flex-grow: 1;
+    #signup-form {
+        max-width: 400px;
+        position: absolute;
+        left: 10%;
+        top: 150px;
+    }
 
-}
+    .text-input:hover {
+        border-color: #f16c6b;
+    }
 
-#signup-form { 
-    color: #ffffff;
-    background-color: rgba(60, 60, 60, 0.6);
-    padding: 30px;
-
-}
-
-
-#signup-form>h2 {
-    color: #fafafa ;
-    margin-bottom: 20px;
-}
-
-.text-input {
-    background: transparent;
-    color: #fafafa;
-    width: 100%;
-    height: 25px;
-    margin: 5px 0 20px 0;
-    border: 1px solid #fafafa;
-    border-radius: 2px;
-    padding: 0 5px;
-
-}
-
-.radio-input {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-}
-.join-button {
-   margin-top: 20px;
-   border-radius: 2px;
-   padding: 15px 32px;
-   font-size: 100%;
-   background-color:#454b1b;
-   color: #fafafa
+    .join-button:hover {
+        background-color: #fafafa;
+        color: #454b1b;
+    }
 }
 
     
