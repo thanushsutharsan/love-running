@@ -103,7 +103,21 @@ nav {
 main {
    /* THIS ALLOWS THE MAIN CONTENT TO EXPAND AND FILL THE AVAILABLE SPACE BETWEEN THE HEADER AND FOOTER, PUSHING THE FOOTER TO THE BOTTOM OF THE PAGE. */
     flex: 1 0 auto;
+    /*ADD MARGIN AT THE TOP TO PREVENT CONTENT FROM BEING COVERED BY THE HEADER */
     margin-top: 47px;
+    /*ENABLE FLEX PROPERTIES FOR CHILD ELEMENTS */
+    display: flex;
+    flex: column;
+}
+
+/* FORMS */
+
+#signup {
+    background-image: url("../images/signup-image.webp");
+    background-size: cover;
+    background-position: 75%;
+    padding: 20px 10% 0 10%;
+    flex-grow: 1;
 
 }
 
@@ -332,7 +346,7 @@ main {
             column-count: 4;
         }
 
-        
+
         #benefits {
             display: flex;
             flex-direction: row;
